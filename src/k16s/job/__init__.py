@@ -3,6 +3,7 @@ import sqlite3
 import time
 
 from cryptography.fernet import Fernet
+import mysql.connector
 
 
 class JobTable():
